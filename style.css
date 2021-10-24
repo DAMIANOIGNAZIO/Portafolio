@@ -47,7 +47,7 @@ body {
     padding-top: 15px;
 }
 
-h1 {
+#testhome {
     font-family: arial, verdana, tahona, sans-serif;
     text-align: center;
     font-size: 60px;
@@ -61,7 +61,6 @@ h1 {
     font-size: 20px;
     line-height: 150%;
     color: #FFF;
-    border: 1px solid black;
     text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 
