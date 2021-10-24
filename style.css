@@ -24,7 +24,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 330px;
+    height: 400px;
     background-image: url('./assests/img4.jpg');
     background-attachment: fixed;
     background-position: center;
@@ -148,4 +148,8 @@ table {
         padding-left: 50%;
         position: relative;
     }
+}
+
+p {
+    padding-left: 30px;
 }
