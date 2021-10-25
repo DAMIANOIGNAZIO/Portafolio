@@ -177,11 +177,6 @@
     .topnav a.active {
         border-bottom: 3px solid rgb(49, 54, 70);
     }
-    
-    .footer {
-        border-bottom: 2px solid #222;
-        width: 50px;
-    }
     /* immagini dei works */
     
     .caption {
@@ -232,4 +227,44 @@
     #works {
         color: #222;
         font-size: 20px;
+    }
+    
+    .works-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap: 0 5rem;
+    }
+    
+    .works-grid> :nth-child(odd) {
+        margin-top: 5rem;
+    }
+    
+    .works-item img {
+        width: 100%;
+        height: 630px;
+        object-fit: cover;
+        background-color: black;
+    }
+    
+    .active {
+        font-weight: bold;
+        color: red;
+    }
+    
+    .footer {
+        padding-top: 2em;
+        padding-bottom: 2em;
+        color: var(--primary500);
+        position: relative;
+    }
+    
+    .footer::after {
+        content: "";
+        position: absolute;
+        width: 40px;
+        height: 1px;
+        top: 50%;
+        margin-left: 50px;
+        background-color: #222;
     }
