@@ -25,7 +25,7 @@
         align-items: center;
         justify-content: center;
         height: 400px;
-        background-image: url('./assests/cuorecaldo.jpeg');
+        background-image: url('./assests/img4.jpg');
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -249,7 +249,7 @@
     
     .active {
         font-weight: bold;
-        color: red;
+        color: var(--primary500);
     }
     
     .footer {
